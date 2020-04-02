@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "nodemon server/server.js",
     "build": "webpack --mode=production",
-    "server": "nodemon server/server.js"
+    "server": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
